@@ -1,4 +1,35 @@
 @font-face {
+  font-family: "InterDisplay-Regular";
+  font-weight: 500;
+  font-style: normal;
+  src: local("InterDisplay-Regular"), local("Inter Display Regular"),
+    url(../fonts/InterDisplay-Regular.woff2) format("woff2"),
+    url(../fonts/InterDisplay-Regular.woff) format("woff"),
+    url(../InterDisplay-Regular.eot) format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "InterDisplay-MediumItalic";
+  font-weight: 500;
+  font-style: normal;
+  src: local("InterDisplay-MediumItalic"), local("Inter Display MediumItalic"),
+    url(../fonts/InterDisplay-MediumItalic.woff2) format("woff2"),
+    url(../fonts/InterDisplay-MediumItalic.woff) format("woff"),
+    url(../InterDisplay-MediumItalic.eot) format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "InterDisplay-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: local("InterDisplay-Medium"), local("Inter Display Medium"),
+    url(../fonts/InterDisplay-Medium.woff2) format("woff2"),
+    url(../fonts/InterDisplay-Medium.woff) format("woff"),
+    url(../InterDisplay-Medium.eot) format("eot");
+  font-display: swap;
+}
+
+/* @font-face {
   font-family: "InterDisplay-Regular", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -6,9 +37,8 @@
   src: url(../fonts/InterDisplay-Regular.woff2) format("woff2"),
     url(../fonts/InterDisplay-Regular.otf) format("otf"),
     url(../fonts/InterDisplay-Regular.ttf) format("ttf");
-  font-display: swap;
-}
-@font-face {
+} */
+/* @font-face {
   font-family: "InterDisplay-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -16,9 +46,8 @@
   src: url(../fonts/InterDisplay-Medium.woff2) format("woff2"),
     url(../fonts/InterDisplay-Medium.otf) format("otf"),
     url(../fonts/InterDisplay-Medium.ttf) format("ttf");
-  font-display: swap;
-}
-@font-face {
+} */
+/* @font-face {
   font-family: "InterDisplay-MediumItalic", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -26,8 +55,7 @@
   src: url(../fonts/InterDisplay-MediumItalic.woff2) format("woff2"),
     url(../fonts/InterDisplay-MediumItalic.otf) format("otf"),
     url(../fonts/InterDisplay-MediumItalic.ttf) format("ttf");
-  font-display: swap;
-}
+} */
 body {
   margin: 0 auto;
   /* width: 618px; */
