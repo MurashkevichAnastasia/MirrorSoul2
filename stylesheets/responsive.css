@@ -1,0 +1,299 @@
+@media screen and (max-width: 600px) {
+  /* HEADER */
+  h1 {
+    /* font-size: 30px; */
+    font-size: 6.977vw;
+    width: 90.698vw;
+  }
+  h2 {
+    /* font-size: 30px; */
+    font-size: 6.977vw;
+    /* width: 390px; */
+    width: 90.698vw;
+  }
+  h3 {
+    font-size: 4.186vw;
+  }
+  h4 {
+    /* font-size: 21px; */
+    font-size: 4.884vw;
+  }
+  p {
+    /* font-size: 17px; */
+    font-size: 3.953vw;
+    line-height: 150%;
+  }
+  header {
+    width: 90.698vw;
+  }
+  .logo {
+    display: none;
+  }
+  .mob-logo {
+    display: block;
+    margin-top: 13.488vw;
+    margin-left: 4.651vw;
+  }
+  .menu {
+    display: none;
+  }
+
+  /* FIRST SCREEN  */
+  .first-screen {
+    width: 90.698vw;
+  }
+  .task-1 {
+    margin-top: 41.163vw;
+  }
+  .button-buy {
+    display: flex;
+    height: 12.558vw;
+    padding: 2.326vw 9.767vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2.326vw;
+    color: #000;
+    font-family: Inter Display;
+    font-size: 4.186vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7vw;
+  }
+
+  /* DESCRIPTION */
+  .scroll-text {
+    margin-top: 63.488vw;
+    width: 90.698vw;
+    height: auto;
+  }
+  .image-container-1 {
+    width: 100vw;
+    height: 87.442vw;
+  }
+  .render-1 {
+    width: 150vw;
+  }
+  /* CA */
+  .ca-container {
+    margin-top: 11.628vw;
+  }
+  .ca-cards {
+    display: flex;
+    width: 90.698vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.651vw;
+    margin-top: 9.302vw;
+    border-radius: 1.163vw;
+  }
+  .ca-card {
+    display: flex;
+    width: 82.326vw;
+    padding: 3.488vw 4.186vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.326vw;
+    height: auto;
+  }
+  .ca-card-text {
+    width: 80.93vw;
+    gap: 3vw;
+  }
+  .ca-h4,
+  .ca-p {
+    width: 80.93vw;
+  }
+
+  /* ADVANTAGES  */
+  .advantages-container {
+    margin-top: 11.628vw;
+    align-items: flex-start;
+    width: 89.767vw;
+    gap: 9.302vw;
+  }
+  .adv-func,
+  .adv-emot {
+    width: 90.233vw;
+    gap: 2.791vw;
+  }
+  .adv-container {
+    flex-direction: column;
+    gap: 9.302vw;
+  }
+  .advCard {
+    width: 89.767vw;
+    height: 7.907vw;
+    gap: 2.326vw;
+  }
+  /* SCROLLING TEXT-2 */
+  .scrolling-test-2-container {
+    margin-top: 11.628vw;
+    width: 90.698vw;
+  }
+  .image-container-2 {
+    width: 100vw;
+  }
+  /* CONNECTION  */
+  .connection {
+    margin-top: 11.628vw;
+    flex-direction: column;
+  }
+  .connection-sub {
+    width: 90.698vw;
+    font-size: 3.953vw;
+    line-height: 130%;
+    margin-top: 4.651vw;
+    margin-bottom: 11.628vw;
+  }
+  .tech-cards-container {
+    display: flex;
+    width: 91.163vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9.302vw;
+    height: auto;
+  }
+  .techCard-1-image,
+  .techCard-2-image,
+  .techCard-3-image,
+  .techCard-4-image,
+  .techCard-5-image,
+  .techCard-6-image,
+  .techCard-7-image,
+  .techCard-8-image,
+  .techCard-9-image {
+    width: 91.163vw;
+  }
+  .techCard-1-container,
+  .techCard-2-container,
+  .techCard-3-container,
+  .techCard-4-container,
+  .techCard-5-container,
+  .techCard-6-container,
+  .techCard-7-container,
+  .techCard-8-container,
+  .techCard-9-container {
+    position: relative;
+    width: 91.163vw;
+    height: 100vw;
+  }
+  .techCard-1-text,
+  .techCard-2-text,
+  .techCard-3-text,
+  .techCard-4-text,
+  .techCard-5-text,
+  .techCard-6-text,
+  .techCard-7-text,
+  .techCard-8-text,
+  .techCard-9-text {
+    position: absolute;
+    width: 9.302vw;
+    text-align: center;
+    font-size: 3.953vw;
+    top: 23.256vw;
+    left: 23.256vw;
+    opacity: 1;
+  }
+
+  /* FAQ */
+  .faq {
+    margin-top: 11.628vw;
+  }
+  .faq-questions-container {
+  }
+  .faqCard {
+    width: 90.698vw;
+  }
+  .question,
+  .questionTw,
+  .questionThree,
+  .questionFour,
+  .questionFive {
+    width: 90.698vw;
+  }
+  .question-arrow {
+    gap: 15.349vw;
+  }
+  .question-arrow-two {
+    gap: 50.93vw;
+  }
+  .question-arrow-three {
+    gap: 71.628vw;
+  }
+  .question-arrow-four {
+    gap: 47.674vw;
+  }
+  .question-arrow-five {
+    gap: 47.209vw;
+  }
+
+  /* FORM */
+  .form {
+    margin-top: 11.628vw;
+  }
+  .form-tittle {
+    width: 90.698vw;
+    font-size: 5.814vw;
+  }
+  .form-container {
+    gap: 2.791vw;
+  }
+  .name-mail {
+    flex-direction: column;
+    gap: 2.326vw;
+  }
+  .form-comment {
+    width: 83.721vw;
+    height: 61.628vw;
+    padding: 3.023vw 3.488vw;
+    border-radius: 2.326vw;
+  }
+  input {
+    width: 83.721vw;
+    padding: 3.023vw 3.488vw;
+    gap: 2.326vw;
+    border-radius: 2.326vw;
+    border: 0.148vw solid #ebebeb;
+    font-size: 4.186vw;
+  }
+  input::placeholder {
+    font-size: 4.186vw;
+  }
+  .button-send {
+    width: 41.163vw;
+    height: 10.465vw;
+    padding: 1.86vw 8.605vw;
+    gap: 2.326vw;
+    font-size: 4.186vw;
+    margin-top: 9.302vw;
+  }
+  /* FOOTER */
+  .footer-menu {
+    display: none;
+  }
+  .logo-menu {
+    margin-top: 10vw;
+  }
+  .mails-phones {
+    flex-direction: column;
+    gap: 8.605vw;
+    margin-top: 5.116vw;
+  }
+  .c-m {
+    width: 90.698vw;
+  }
+  .c-m {
+    width: 90.698vw;
+  }
+  .contacts {
+    width: 90.698vw;
+  }
+  .mails,
+  .phones {
+    gap: 2vw;
+  }
+  .last {
+    margin-top: 10vw;
+  }
+}

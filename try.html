@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    /* Стили для ответа */
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Стили для активного (раскрытого) ответа */
+.answer.active {
+  max-height: 1000px; /* Высота, достаточная для отображения ответа */
+}
+
+  </style>
+  <div class="faq">
+    <div class="question">
+      <p>Вопрос 1</p>
+      <div class="answer">
+        <p>Ответ на вопрос 1.</p>
+      </div>
+    </div>
+    <div class="question">
+      <p>Вопрос 2</p>
+      <div class="answer">
+        <p>Ответ на вопрос 2.</p>
+      </div>
+    </div>
+    <!-- Добавьте другие вопросы здесь -->
+  </div>
+  <script>
+    // Получаем все вопросы
+const questions = document.querySelectorAll('.question');
+
+questions.forEach((question) => {
+  // Добавляем слушатель события на клик для каждого вопроса
+  question.addEventListener('click', () => {
+    const answer = question.querySelector('.answer');
+    answer.classList.toggle('active'); // Переключаем класс active для ответа
+
+    // Закрываем остальные ответы при открытии текущего
+    questions.forEach((otherQuestion) => {
+      if (otherQuestion !== question) {
+        const otherAnswer = otherQuestion.querySelector('.answer');
+        otherAnswer.classList.remove('active');
+      }
+    });
+  });
+});
+
+  </script>
+</body>
+</html>
