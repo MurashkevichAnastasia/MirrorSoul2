@@ -458,11 +458,13 @@ header {
   cursor: pointer;
 }
 .question,
-.questionTw,
+.questionTwo,
 .questionThree,
 .questionFour,
 .questionFive {
   width: 45.71vw;
+  padding-top: 1.259vw;
+  padding-bottom: 1.259vw;
 }
 .question-arrow {
   display: inline-flex;
