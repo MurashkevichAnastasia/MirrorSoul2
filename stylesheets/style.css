@@ -4,6 +4,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(fonts/InterDisplay-Regular.woff2) format("woff2"),
+    url(fonts/InterDisplay-Regular.otf) format("otf"),
     url(fonts/InterDisplay-Regular.ttf) format("ttf");
 }
 @font-face {
@@ -12,6 +13,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(fonts/InterDisplay-Medium.woff2) format("woff2"),
+    url(fonts/InterDisplay-Medium.otf) format("otf"),
     url(fonts/InterDisplay-Medium.ttf) format("ttf");
 }
 @font-face {
@@ -20,6 +22,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(fonts/InterDisplay-MediumItalic.woff2) format("woff2"),
+    url(fonts/InterDisplay-MediumItalic.otf) format("otf"),
     url(fonts/InterDisplay-MediumItalic.ttf) format("ttf");
 }
 body {
